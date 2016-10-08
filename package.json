@@ -15,7 +15,7 @@
     "motley": "^2.2.7",
     "motley-mongo": "^2.0.5",
     "multi-progress": "^2.0.0",
-    "numbro": "1.9.3",
+    "numbro": "git+https://github.com/carlos8f/numbro.git",
     "object-get": "^2.1.0",
     "os-monitor": "^1.0.4",
     "run-parallel": "^1.1.6",

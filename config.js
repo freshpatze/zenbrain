@@ -1,6 +1,6 @@
 var c = module.exports = {}
 c.enabled_plugins = [] // set to something like ['extras/twitter']
-c.mongo_url = "mongodb://localhost:27017/zenbrain" // change if your mongo server isn't local
+c.mongo_url = "mongodb://" + (process.env.MONGODB_PORT_27017_TCP_ADDR || "localhost") + ":27017/zenbrain" // change if your mongo server isn't local
 c.mongo_username = null // normally not needed
 c.mongo_password = null
 c.twitter_key = "" // create a twitter app, generate an access token, and add it here
